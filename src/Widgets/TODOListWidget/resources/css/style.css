@@ -1,0 +1,16 @@
+.todolist-widget .todolist-items li:hover {
+	background-color: #fff5b1;
+	transition: 0.7s;
+	cursor: pointer;
+}
+.todolist-widget {
+	position: relative;
+}
+
+.todolist-widget span.glyphicon-remove{
+	float: right;
+}
+
+.todolist-widget .remove-item {
+	margin-left: 15px;
+}

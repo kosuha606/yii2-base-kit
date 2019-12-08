@@ -1,0 +1,23 @@
+{
+    "name": "kosuha606/yii2-base-kit",
+    "description": "Usefull features for yii2",
+    "type": "composer-pugin",
+    "authors": [
+        {
+            "name": "Eugene Kosuhin",
+            "email": "kosuha606@gamil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "reqiure-dev": {
+        "phpunit/phpunit": "7.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "kosuha606\\Yii2BaseKit\\": "src"
+        }
+    }
+}
